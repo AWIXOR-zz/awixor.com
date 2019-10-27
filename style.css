@@ -525,7 +525,7 @@ a {
 
 /***********************************Home STYLES***********************************/
 #home {
-    background: url(./img/background\ image1.png) no-repeat center center;
+    background: url(./img/backgroundImg.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -725,6 +725,7 @@ a {
 }
 .work-title a{
     text-decoration: none;
+    color:rgba(229, 45, 45, 0.829);
 }
 .work-block p{
     color: hsl(0, 0%, 50%);;
