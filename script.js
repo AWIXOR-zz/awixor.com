@@ -54,26 +54,26 @@ $(document).ready(function(){
   var controller2 = new ScrollMagic.Controller();
 
   //Progress bars
-  var progress_bar_scene = new ScrollMagic.Scene({
+  // var progress_bar_scene = new ScrollMagic.Scene({
 
-    triggerElement: '.about-resume',
-    triggerHook: .7,
+  //   //triggerElement: '.about-resume',
+  //   triggerHook: .7,
 
-  })
-  .setClassToggle('.inner-percent', 'inner-percent-animate')
-  .reverse(false)
-  .addTo(controller);
+  // })
+  // .setClassToggle('.inner-percent', 'inner-percent-animate')
+  // .reverse(false)
+  // .addTo(controller);
     
   //Icons in Services
-  var about_scene = new ScrollMagic.Scene({
-    triggerElement: '.trigger',
-    triggerHook: .7
-  })
-  .setClassToggle('.icon', 'work-icon-animate')
-  .reverse(false)
-  .addTo(controller2);
+//   var about_scene = new ScrollMagic.Scene({
+//     triggerElement: '.trigger',
+//     triggerHook: .7
+//   })
+//   .setClassToggle('.icon', 'work-icon-animate')
+//   .reverse(false)
+//   .addTo(controller2);
     
-});
+ });
 
 /*******************************************MOBILE NAV*******************************************/
 $('.mobile-menu').click(function(){
@@ -102,7 +102,7 @@ window.addEventListener('load', function(){
   overlay.style.display = "none";
 })
 
-/***********************Particles*************/
+/************************************/
 jQuery(document).ready(function(){
   jQuery('.skillbar').each(function(){
     jQuery(this).find('.skillbar-bar').animate({
@@ -110,7 +110,7 @@ jQuery(document).ready(function(){
     },4000);
   });
 });
-/***********************Particles*************/
+/***********************Particles*************
 particlesJS("particles-js", 
 {"particles":{
   "number":{
